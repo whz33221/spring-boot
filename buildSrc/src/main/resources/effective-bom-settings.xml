@@ -1,0 +1,14 @@
+<settings>
+	<localRepository>localRepositoryPath</localRepository>
+	<profiles>
+		<profile>
+			<id>spring-repositories</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<repositories>
+				<!-- {spring.mavenRepositories} -->
+			</repositories>
+		</profile>
+	</profiles>
+</settings>
